@@ -10,7 +10,7 @@
 
 <h1 align="center">
 	<br>
-	<img width="400" src="https://s15.postimg.org/xskkd80pn/ml_arch.png" alt="awesome">
+	<img width="400" src="https://s15.postimg.org/xskkd80pn/ml_arch.png" alt="" style = "width: 800px;">
 	<br>
 	<br>
 	<br>
