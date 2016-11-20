@@ -33,6 +33,11 @@
 
 # Beacon Communication and Raspberry Pi
 
+When we originally conceptualized our project, we were under the impression that estimote beacons would be available. Due to complications with importing them, we had to improvise by turning a Raspberry Pi into a minimal functioning beacon. 
+
+The beacon works via a low-level instruction set programming for the bluetooth chip within the PI. By utilizing libraries like [PyBluez](https://github.com/karulis/pybluez) we are able to configure these instructuions. Using (Eddystone command setup)[http://yencarnacion.github.io/eddystone-url-calculator/] we were able to write these to the bluetooth.
+
+Ultimately the beacon produces a Physical Web link for nearby devices to pickup at will.
 
 
 # Back-End
