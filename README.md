@@ -6,8 +6,9 @@
 
 
 
-### Summary
- In their effort to help customers with their financial matters, banks shall provide their customers with BotShop. The same way that banks have financial consultants to help their customers with investing their money, BotShop serves as the personalized A.I. assistant for the day-to-day financial practices. Empowered by a powerful A.I. backend, an up-to-date geographical information, as well as the preferences and past practices of the user, BotShop is able to provide the customer with detailed information about nearby promotions, compare it with his needs and provide insights about the true value of these promotions. BotShop is the meeting point of IoT, BigData and smart personal assistants, where the data rich data enabled by IoT is processed to provide the customers with rich and profitable shopping experiences.  |
+## Summary
+
+**In their effort to help customers with their financial matters, banks shall provide their customers with BotShop. The same way that banks have financial consultants to help their customers with investing their money, BotShop serves as the personalized A.I. assistant for the day-to-day financial practices. Empowered by a powerful A.I. backend, an up-to-date geographical information, as well as the preferences and past practices of the user, BotShop is able to provide the customer with detailed information about nearby promotions, compare it with his needs and provide insights about the true value of these promotions. BotShop is the meeting point of IoT, BigData and smart personal assistants, where the data rich data enabled by IoT is processed to provide the customers with rich and profitable shopping experiences.**
 
 ## Motivating example
 
