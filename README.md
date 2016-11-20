@@ -1,13 +1,24 @@
+# Botshop: Your personal A.I. assistant for all shopping
+
 <h1 align="center">
 	<br>
-	<img width="400" src="https://drive.google.com/file/d/0B78-n-4DmahnZFhPWE4zQ2MzUDg/view?usp=sharing" alt="awesome">
+	<img width="400" src="https://s15.postimg.org/ad2n7vgyj/architecture.png" >
+	<br>
+	<br>
+	<br>
+</h1>
+
+<h1 align="center">
+	<br>
+	<img width="400" src="https://s15.postimg.org/xskkd80pn/ml_arch.png" alt="awesome">
 	<br>
 	<br>
 	<br>
 </h1>
 
 
-# Botshop: Your personal A.I. assistant for all shopping
+
+
 
 ### Motivating example
  |
