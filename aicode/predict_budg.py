@@ -67,17 +67,17 @@ def predict_budget(user_id = 86246, dept_num = 63):
     
     list_users = list(set(xl_file_perday["id"]))
     
-    fig = plt.figure()
-    plt.plot(X, y, 'r.', markersize=10, label=u'Observations')
-    plt.plot(x, y_pred, 'b-', label=u'Prediction')
+    #fig = plt.figure()
+    #plt.plot(X, y, 'r.', markersize=10, label=u'Observations')
+    #plt.plot(x, y_pred, 'b-', label=u'Prediction')
     #plt.fill(np.concatenate([x, x[::-1]]),
     #         np.concatenate([y_pred - 1.9600 * sigma,
     #                        (y_pred + 1.9600 * sigma)[::-1]]),
     #         alpha=.5, fc='b', ec='None', label='95% confidence interval')
-    plt.xlabel('Week Index')
-    plt.ylabel('Expenses')
-    plt.legend(loc='upper left')
-    plt.savefig('figures/Categ'+str(dept_num)+'.jpeg')
+    #plt.xlabel('Week Index')
+    #plt.ylabel('Expenses')
+    #plt.legend(loc='upper left')
+    #plt.savefig('figures/Categ'+str(dept_num)+'.jpeg')
     return y_pred[-1]
 #    for user in list_users:
 #        user_dataset = xl_file_perday[xl_file_perday['id']==user]

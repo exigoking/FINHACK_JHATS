@@ -80,15 +80,15 @@ def ali_func(uid=86246,bid=0):
             #what was the expected value of user's spending on each category
             mean_price, std_price = avg_price_per_categ(user_id = uid, dept_num = categ)
             savings = (mean_price - disc_price)/mean_price
-            print(savings,disc_value)
+            #print(savings,disc_value)
             curr_budget = np.random.uniform(0.2*predicted_budget, 1.2*predicted_budget)
             if(predicted_budget  < disc_price + curr_budget):
                 final_message = "You are over budget for " + str(categ)
             else:
                 if savings >0:
-                    final_message = str(categ) + " is under " +  str(disc_value*100) + "% discount. This is " + str(savings*100) +"% cheaper that what you normally pay. You are " + str(predicted_budget - curr_budget) + " away from your average budget for this category."
+                    final_message = str(categ) + " is under " +  str(round(disc_value*100)) + "% discount. This is " + str(round(savings*100)) +"% cheaper that what you normally pay. You are " + str(round(predicted_budget[0] - curr_budget)) + " away from your average budget for this category."
                 else:
-                    final_message = str(categ) + "is under " +  str(disc_value*100) + "% discount. Note that this is " + str(savings*100) +"% more expensive that what you normally pay. You are " + str(predicted_budget - curr_budget) + " away from your average budget for this category."
+                    final_message = str(categ) + " is under " +  str(round(disc_value*100)) + "% discount. Note that this is " + str(round(savings*100)) +"% more expensive that what you normally pay. You are " + str(round(predicted_budget[0] - curr_budget)) + " dollars away from your average budget for this category."
             print(final_message)
         #break
     return final_message
