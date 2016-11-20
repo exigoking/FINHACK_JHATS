@@ -1,38 +1,28 @@
 # Botshop: Your personal A.I. assistant for all shopping
 
-<h1 align="center">
-	<br>
-	<img width="400" src="https://s15.postimg.org/ad2n7vgyj/architecture.png" >
-	<br>
-	<br>
-	<br>
-</h1>
-
-<h1 align="center">
-	<br>
-	<img width="400" src="https://s15.postimg.org/xskkd80pn/ml_arch.png" alt="" style = "width: 800px;">
-	<br>
-	<br>
-	<br>
-</h1>
 
 
 
 
 
-### Motivating example
- |
-|   | In their effort to help customers with their financial matters, banks shall provide their customers with BotShop. The same way that banks have financial consultants to help their customers with investing their money, BotShop serves as the personalized A.I. assistant for the day-to-day financial practices. Empowered by a powerful A.I. backend, an up-to-date geographical information, as well as the preferences and past practices of the user, BotShop is able to provide the customer with detailed information about nearby promotions, compare it with his needs and provide insights about the true value of these promotions. BotShop is the meeting point of IoT, BigData and smart personal assistants, where the data rich data enabled by IoT is processed to provide the customers with rich and profitable shopping experiences.  |
 
-## Botshop: Your personal A.I. assistant for all shopping
+### Summary
+ In their effort to help customers with their financial matters, banks shall provide their customers with BotShop. The same way that banks have financial consultants to help their customers with investing their money, BotShop serves as the personalized A.I. assistant for the day-to-day financial practices. Empowered by a powerful A.I. backend, an up-to-date geographical information, as well as the preferences and past practices of the user, BotShop is able to provide the customer with detailed information about nearby promotions, compare it with his needs and provide insights about the true value of these promotions. BotShop is the meeting point of IoT, BigData and smart personal assistants, where the data rich data enabled by IoT is processed to provide the customers with rich and profitable shopping experiences.  |
 
-Motivating example
+## Motivating example
 
 **Consider our valuable customer John. John is now in Eaton Centre shopping. The Geo-communications Beacon protocol will detect that John is in Eaton center and establishes communication with him. Once communications is started, BotShop will get in, communicating with John&#39; cloud where the A.I. engine is running. The A.I. engine knows that it is November already and winter has started. John&#39;s smart closet at home will also notify the A.I. engine that John needs a winter coat. The A.I. engine also knows John&#39;s current budget and how much he pays for winter coats o average. The A.I., being aware of john&#39;s location and the nearby stores, will communicate with the stores and get what special promotions they have for winter coats. The A.I. engine will then decide which offers are worthy of John&#39;s attention, and inform him of the nearby stores, how much is the discount, and how different is the price from John&#39;s past purchases. One example of a message that we send is &quot;Winter Coat is under 50.0% discount at Store W&amp;V. This is 34% cheaper that what you normally pay. You are 250 away from your average budget for this category.&quot;**
 
 # **Architecture**
 
 
+<h1 align="center">
+	<br>
+	<img width="800" src="https://s15.postimg.org/ad2n7vgyj/architecture.png" >
+	<br>
+	<br>
+	<br>
+</h1>
 
 
 
@@ -48,6 +38,13 @@ Motivating example
 
 # A.I. ENgine
 
+<h1 align="center">
+	<br>
+	<img width="800" src="https://s15.postimg.org/xskkd80pn/ml_arch.png" alt="" >
+	<br>
+	<br>
+	<br>
+</h1>
 
 
 
