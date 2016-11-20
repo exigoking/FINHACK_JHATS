@@ -63,7 +63,7 @@
 5. If not, find how the announced price compares to the average value the user used to spend before.
 6. Finally send the message to the user with the personalized information about how the promotion, the predicted budget and the true savings the user is making based on his past purchases.
 
-The following figures show the performance of our A.I. prediction engine.
+The following figures show the performance of our A.I. prediction engine for items of different categories.
 
 <h1 align="left">
 	<br>
