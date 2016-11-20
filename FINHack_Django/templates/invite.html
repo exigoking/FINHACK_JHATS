@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<!-- <form method='POST' action=''>{% csrf_token %}
+	{{ form.as_p }}
+	<input type = 'submit' value = 'Invite'>
+</form> -->
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="section-style" data-background-image="/static/static_root/images/background/contact.jpg">
+	<div class="pattern height-resize">
+		<div class="container">
+			<h3 class="section-name">
+				<span>
+					Invite a user!
+				</span>
+			</h3><!-- /.section-name -->
+			<h2 class="section-title">
+				Invite a user to the Room
+			</h2><!-- /.Section-title  -->
+			<p class="section-description">
+				Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+			</p><!-- /.section-description -->
+
+			<!-- class="clearfix" -->
+			<form action="POST" method="post" >{% csrf_token %}
+				<!-- <div class="contact-box-hide"> -->
+					<div class="col-sm-12 text-center col-centered">
+
+						{{ form }}
+
+						<input type="submit"    class="btn btn-primary"  >
+
+					</div>
+
+				<!-- </div> -->
+				<div class="contact-message"></div>
+
+			</form><!-- /#contact-form -->
+
+
+
+			<div class="next-section text-center">
+				<a class="go-to-page-top"><span></span></a>
+			</div><!-- /.next-section -->
+
+		</div><!-- /.container -->
+	</div><!-- /.pattern -->
+
+</section><!-- /#contact -->
+<!-- Contact Section End -->
+{% endblock %}
+
+
+
+<!-- end of the code -->
