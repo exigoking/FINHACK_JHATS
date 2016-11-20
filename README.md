@@ -37,6 +37,8 @@
 
 # Back-End
 
+The back-end consists of NGINX proxy server. All dynamic requests are processed by Django application. The Django app mainly recieves the user credentials and calls AI Engine. Upon the end of the AI Engine operation, Django app sends response (which is user-related suggestions) to the front-end. Django app stores user related information inside PostgreSQL that is located on the same server with the Django app. The back-end consists of 2 servers: proxy server and computation server. Since computation server is privately owned it cannot be accessed external HTTP/HTTPS requests. The reason for using the computation server is due to its computational power (32 cores, 32 GB MEM) which is required by AI Engine. The proxy server has a private subnet established with the computation server. The proxy server redirects all requests to the computation server. The proxy server also maintains SSL certificates required by HTTPS protocol for the Beacon Device. 
+
 # A.I. Engine
 
 <h1 align="center">
