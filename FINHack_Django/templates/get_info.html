@@ -11,7 +11,7 @@
 <div class="container">
     <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
-            <h1>Bonfire ^^</h1>
+            <h1>Bonfire</h1>
         </div>
     </div>
     <br />
@@ -19,7 +19,7 @@
         <div class="col-sm-4 col-sm-offset-4" align="center">
             
               <div class="form-group">
-                <p class="lead text-center"> Can we get your email?</p>
+                <p class="lead text-center"> Can we get your phone number?</p>
                 <input type="tel" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="Phone Number">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
@@ -30,14 +30,16 @@
 <script type="text/javascript">
     $(document).ready(function(){
  
-        var form = $('#number-form');
+      var form = $('#number-form');
 	$( ".btn-default" ).click(function() {
 
+      var store_id = window.location.search.indexOf("store_id=");
+
 		var phoneNumber = $("#phoneNumber").val();
-            	var obj = {'phoneNumber':phoneNumber};
+            	var obj = {'phoneNumber':phoneNumber, 'store_id': store_id };
 		$.ajax({
 			           type: "POST",
-			           url: "http://ec2-54-145-160-113.compute-1.amazonaws.com/getInfo/",
+			           url: "http://ec2-54-145-160-113.compute-1.amazonaws.com/api/",
 			           contentType: 'application/json; charset=utf-8',
 			           data: JSON.stringify(obj),
 			           success: function(data) {

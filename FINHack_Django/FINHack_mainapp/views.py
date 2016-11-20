@@ -9,8 +9,19 @@ from .forms import MainappForm,CreateRoomForm
 def home(requests):
 	return render(requests,'index.html',{})
 
-def initial(requests):
-	return render(requests,'initial.html',{})
+@csrf_exempt
+def get_info(requests):
+	context={}
+	if request.method == "POST":
+		
+		params=json.loads(requests.body.decode('utf-8'))
+		phoneNumber = None
+		phoneNumber = params['phoneNumber']
+		context['phoneNumber'] = phoneNumber
+		
+		return HttpResponse(json.dumps(context), content_type='application/json')
+
+	return render(requests,'initial.html',context)
 
 
 def create_room(requests):
@@ -38,14 +49,3 @@ def invite(requests):
 	}
 
 	return render(requests,'invite.html',context)
-
-@csrf_exempt
-def get_info(requests):
-	params=json.loads(requests.body.decode('utf-8'))
-	phoneNumber = None
-	phoneNumber = params['phoneNumber']
-	
-	context_dict = {}
-	context_dict['success'] = True
-	
-	return HttpResponse(json.dumps(context_dict), content_type='application/json')
