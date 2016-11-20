@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="400" src="https://www.dropbox.com/s/1m5v3cityh5kioj/architecture.png?dl=0" alt="awesome">
+	<img width="400" src="https://drive.google.com/file/d/0B78-n-4DmahnZFhPWE4zQ2MzUDg/view?usp=sharing" alt="awesome">
 	<br>
 	<br>
 	<br>
